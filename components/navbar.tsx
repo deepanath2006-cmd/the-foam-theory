@@ -53,8 +53,8 @@ export function Navbar() {
             href="#home"
             className="flex shrink-0 items-center py-1 transition-opacity hover:opacity-90"
           >
-            <Logo priority variant="navbar" />
-          </Link>
+ <Logo priority />
+           </Link>
 
           <ul className="hidden items-center gap-1 lg:flex">
             {NAV_LINKS.map((link) => (
@@ -68,8 +68,6 @@ export function Navbar() {
               </li>
             ))}
           </ul>
-
-           
 
           <button
             type="button"
